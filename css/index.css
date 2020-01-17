@@ -289,19 +289,20 @@ body {
     max-width: 40%;
 }
 
-button {
-
-}
-.button {
-    
-    padding: 10px 30px;
-    font-size: 12px;
-    border: black solid 1px;
-    display: inline-block;
-    background-color: white;
+.bottom-text {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
+footer {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
+.bottom-text p { 
+    font-size: 15px;
+} 
 
 
 
