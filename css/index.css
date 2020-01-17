@@ -140,7 +140,7 @@ footer nav a {
     text-decoration: none;
 }
 
-/*my codes*/
+/*my codes for index.html*/
 body {
     margin: 100px 100px 500px 100px;
 }
@@ -229,6 +229,81 @@ body {
     
   
 }
+
+/*codes for About page*/
+
+/* for navbar and logo*/
+body {
+    margin: 100px 100px 500px 100px;
+}
+.logo, nav {
+    display: flex;
+}
+
+.nav1 a{
+    padding: 30px 30px 0 30px;
+    
+    text-decoration: none;
+    
+}
+
+.nav1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+}
+
+.image {
+    margin-top:30px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+/* done for navbar and logo*/
+
+/*codes for the top image*/
+.about-image {
+    margin-top:30px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.line3 {
+    border: 1px black dotted;
+    
+}
+
+/*codes for top part text*/
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}    
+
+.middle1 hr {
+    border: 1px black dotted;
+}
+
+
+.middle1 div {
+    max-width: 40%;
+}
+
+button {
+
+}
+.button {
+    
+    padding: 10px 30px;
+    font-size: 12px;
+    border: black solid 1px;
+    display: inline-block;
+    background-color: white;
+}
+
+
+
+
 
 
 
