@@ -274,19 +274,22 @@ body {
 }
 
 /*codes for top part text*/
-.middle {
+.about-middle {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-between;
+    
 }    
 
 .middle1 hr {
     border: 1px black dotted;
+    
 }
 
 
-.middle1 div {
-    max-width: 40%;
+.middle1  {
+    width: 45%;
+    margin: 10px;
 }
 
 .bottom-text {
@@ -296,8 +299,9 @@ body {
 
 footer {
     display: flex;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 60px;
 }
 
 .bottom-text p { 
