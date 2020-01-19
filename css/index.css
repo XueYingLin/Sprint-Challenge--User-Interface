@@ -66,11 +66,6 @@ p {
     line-height: 1.4;
 }
 
-.container {
-    width: 800px;
-    margin: 0 auto;
-}
-
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -136,7 +131,7 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    
     font-size: 14px;
 }
 
@@ -144,3 +139,274 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*my codes for index.html*/
+body {
+    margin: 100px 100px 500px 100px;
+}
+.logo, nav {
+    display: flex;
+}
+
+.nav1 a{
+    padding: 30px 30px 0 30px;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.nav1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+}
+
+.image {
+    margin-top:30px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.top-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-content .text-container {
+    width: 48%;
+    
+    
+}
+
+.boxes div{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 15px;
+    width: calc(20% - 30px - 15px);
+    height: 50%;
+    color: white;
+    text-align: center;
+    white-space: nowrap;
+}
+.box1 {
+    background-color: teal;
+    transition: 0.2s; /*create a box1 animation transition time*/
+}
+
+/*create box1 animation by changing it's background color*/
+.box1:hover {
+    background-color: #228B22; 
+    color: red;
+}
+
+.box2 {
+    background-color: gold;
+    transition: 0.2S; /*create a box1 animation transition time*/
+}
+
+/*create box2 animation by changing it's background color*/
+.box2:hover {
+    background-color: green;
+    color: red;
+}
+
+.box3 {
+    background-color: cadetblue;
+    transition: 0.2s; /*create a box1 animation transition time*/
+}
+
+/*create box3 animation by changing it's background color*/
+.box3:hover {
+    background-color: tomato;
+    color: green;
+}
+
+.box4 {
+    background-color: coral;
+    transition: 0.2s;
+}
+
+.box4:hover {
+    background-color: violet;
+    color: yellow;
+
+}
+.box5 {
+    background-color: crimson;
+    transition: 0.2s;
+}
+
+.box5:hover {
+    background-color: wheat;
+    color: green;
+
+}
+
+.box6 {
+    background-color: forestgreen;
+    transition: 0.2s;
+}
+
+.box6:hover {
+    background-color: yellow;
+    color: green;
+
+}
+.box7 {
+    background-color: darkorchid;
+    transition: 0.2s;
+}
+
+.box7:hover {
+    background-color: red;
+    color: green;
+
+}
+
+.box8 {
+    background-color: hotpink;
+    transition: 0.2s;
+}
+
+.box8:hover {
+    background-color: yellow;
+    color: hotpink;
+
+}
+
+
+.box9 {
+    background-color: indigo;
+    transition: 0.2s;
+}
+
+.box9:hover {
+    background-color: blue;
+    color: yellow;
+
+}
+
+.box10 {
+    background-color: dodgerblue;
+    transition: 0.2s;
+}
+
+.box10:hover {
+    background-color: red;
+    color: yellow;
+
+}
+
+.nav2 {
+    
+    display: flex;
+    justify-content: flex-start;
+    
+} 
+.nav2 a{
+    padding: 10px 30px 10px 30px;
+    
+  
+}
+
+/*codes for About page*/
+
+/* for navbar and logo*/
+body {
+    margin: 100px 100px 500px 100px;
+}
+.logo, nav {
+    display: flex;
+}
+
+.nav1 a{
+    padding: 30px 30px 0px 30px;
+    
+    text-decoration: none;
+    
+}
+
+.nav1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+}
+
+.image {
+    margin-top:30px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+/* done for navbar and logo*/
+
+/*codes for the top image*/
+.about-image {
+    margin-top:30px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.line3 {
+    border: 1px black dotted;
+    
+}
+
+/*codes for top part text*/
+.about-middle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}    
+
+.middle1 hr {
+    border: 1px black dotted;
+    
+}
+
+
+.middle1  {
+    width: 45%;
+    margin: 10px;
+}
+
+.middle1 img {
+    width: 100%;
+}
+
+.bottom-text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 60px;
+}
+
+.bottom-text p { 
+    font-size: 15px;
+} 
+.button {
+    padding: 5px 10px;
+    font-size: 10px;
+    border: black solid 1px;
+    display: inline-block;
+    background-color: white;
+  
+}
+.learn-more {
+    margin-top: 30px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 30px;
+    background-color: white;
+  }
+  
+
+
+
