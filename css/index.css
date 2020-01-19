@@ -150,7 +150,7 @@ body {
 
 .nav1 a{
     padding: 30px 30px 0 30px;
-    
+    color: black;
     text-decoration: none;
     
 }
@@ -180,42 +180,122 @@ body {
 }
 
 .boxes div{
-    padding: 50px;
-    margin: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 15px;
+    width: calc(20% - 30px - 15px);
+    height: 50%;
     color: white;
+    text-align: center;
+    white-space: nowrap;
 }
 .box1 {
     background-color: teal;
+    transition: 0.2s; /*create a box1 animation transition time*/
+}
+
+/*create box1 animation by changing it's background color*/
+.box1:hover {
+    background-color: #228B22; 
+    color: red;
 }
 
 .box2 {
     background-color: gold;
+    transition: 0.2S; /*create a box1 animation transition time*/
+}
+
+/*create box2 animation by changing it's background color*/
+.box2:hover {
+    background-color: green;
+    color: red;
 }
 
 .box3 {
     background-color: cadetblue;
+    transition: 0.2s; /*create a box1 animation transition time*/
+}
+
+/*create box3 animation by changing it's background color*/
+.box3:hover {
+    background-color: tomato;
+    color: green;
 }
 
 .box4 {
     background-color: coral;
+    transition: 0.2s;
+}
+
+.box4:hover {
+    background-color: violet;
+    color: yellow;
+
 }
 .box5 {
     background-color: crimson;
+    transition: 0.2s;
 }
+
+.box5:hover {
+    background-color: wheat;
+    color: green;
+
+}
+
 .box6 {
     background-color: forestgreen;
+    transition: 0.2s;
+}
+
+.box6:hover {
+    background-color: yellow;
+    color: green;
+
 }
 .box7 {
     background-color: darkorchid;
+    transition: 0.2s;
 }
+
+.box7:hover {
+    background-color: red;
+    color: green;
+
+}
+
 .box8 {
     background-color: hotpink;
+    transition: 0.2s;
 }
+
+.box8:hover {
+    background-color: yellow;
+    color: hotpink;
+
+}
+
+
 .box9 {
     background-color: indigo;
+    transition: 0.2s;
 }
+
+.box9:hover {
+    background-color: blue;
+    color: yellow;
+
+}
+
 .box10 {
     background-color: dodgerblue;
+    transition: 0.2s;
+}
+
+.box10:hover {
+    background-color: red;
+    color: yellow;
+
 }
 
 .nav2 {
@@ -225,7 +305,7 @@ body {
     
 } 
 .nav2 a{
-    padding: 20px 30px 20px 30px;
+    padding: 10px 30px 10px 30px;
     
   
 }
@@ -241,7 +321,7 @@ body {
 }
 
 .nav1 a{
-    padding: 30px 30px 0 30px;
+    padding: 30px 30px 0px 30px;
     
     text-decoration: none;
     
@@ -290,6 +370,10 @@ body {
 .middle1  {
     width: 45%;
     margin: 10px;
+}
+
+.middle1 img {
+    width: 100%;
 }
 
 .bottom-text {
